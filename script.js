@@ -1,4 +1,7 @@
 const btn = document.getElementById("toggleBtn");
+const introhead = document.querySelector("#intro h1");
+const introsub = document.querySelector("#intro p");
+
 let isDark = false;
 
 function render() {
@@ -6,10 +9,15 @@ function render() {
     document.body.classList.add("dark");
     document.title = "Good Night";
     btn.textContent = "Lights on!";
+    introhead.textContent = "You See? That was easy! 😴";
+    introsub.textContent = "This dark mode is easy on the eyes. Enjoy!";
   } else {
     document.body.classList.remove("dark"); // Ensure removing dark mode class
     document.title = "Good Morning";
     btn.textContent = "Lights off!";
+    introhead.textContent = "This Is My First Toggle Button! 🧚🏾‍♀️";
+    introsub.textContent =
+      "To use the toggle button, simply click on it. Each click will switch between light and dark mode!";
   }
 }
 
