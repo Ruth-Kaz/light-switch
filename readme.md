@@ -12,8 +12,12 @@ To use the toggle button, simply click on it. Each click will switch between lig
 - Updates the background color, text color, and button text according to the selected mode.
 - Supports toggling between modes by clicking the button.
 
-## Technologies Used
+## Languages Used
 
 - HTML
 - CSS
 - JavaScript
+
+## Created By
+
+Ruth Kazembola
